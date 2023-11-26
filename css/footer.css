@@ -42,11 +42,20 @@ footer .col3 p {
 }
 
 footer div a {
+  /* background-color: #1ac97b; */
   display: block;
-  padding: 5px 0;
+  height: 20px;
+  margin: 8px 0;
   text-decoration: none;
+  box-sizing: border-box;
   color: black;
   font-size: 13px;
+  transition: 300ms;
+}
+.footer-link:hover{
+ color: #1ac97b;
+ border-bottom: 1px #1ac97b solid;
+ animation: forwards;
 }
 .col3 #logo {
   width: 160px;
@@ -81,6 +90,12 @@ footer div a {
   display: inline-block;
   width: 100%;
 }
+.col3 .social-app img:hover {
+
+  color: #1ac97b;
+
+}
+
 .socials #banimag{
     display: block;
     margin: 10px auto;

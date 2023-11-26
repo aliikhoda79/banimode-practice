@@ -1,0 +1,44 @@
+.midd-slider {
+  width: 100%;
+  margin-bottom:10px ;
+}
+.shegeft {
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+.shegeft-title {
+  display: inline-block;
+  padding-left: 250px;
+  vertical-align: bottom;
+}
+.timer {
+  display: inline-block;
+  vertical-align: sub;
+}
+
+#timer-title {
+  display: inline-block;
+  font-family: yekan;
+  font-size: 20px;
+  color: #42b980;
+}
+.timer span {
+  display: inline-block;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 17%;
+  color: white;
+  box-sizing: border-box;
+  line-height: 50px;
+}
+#timer {
+  color: #f16423;
+}
+
+#timer span {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  background-color: #f16423;
+}

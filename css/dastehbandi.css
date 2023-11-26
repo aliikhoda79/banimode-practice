@@ -1,0 +1,38 @@
+.group-items{
+    width: 100%;
+    text-align: center;
+    
+}
+.g-item {
+    position: relative;
+    margin: 50px 0;
+    display: inline-block;
+    margin-right: 20px;
+    margin-left: 20px;
+    transition: 250ms;
+}
+.g-item a img{
+    border-radius: 10px;
+    max-width: 145px;
+    max-height: 145px;
+ 
+}
+.g-item:hover{
+    transform:scale(1.2,1.2);
+    
+}
+.g-item span{
+    width: 145px;
+    display: inline-block;
+    height: 145px;
+    background-color: gray;
+    position: absolute;
+    left: 0;
+    border-radius: 10px;
+    transition: 200ms;
+    opacity: 0;
+}
+.g-item span:hover{
+    opacity: 0.15;
+}
+

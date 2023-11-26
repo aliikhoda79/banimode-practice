@@ -1,0 +1,34 @@
+.dasteha2{
+    width: 100%;
+    margin: 80px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+
+.g2-item{
+    
+    position: relative;
+    display: inline-block;
+    width: 22.5%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.g2-item img{
+    width: 100%;
+    border-radius: 10px;
+    transition: 500ms;
+}
+.g2-item img:hover{
+ transform: scale(1.05,1.05);
+
+
+}
+.kitoy-item{
+    all: unset;
+    overflow: hidden;
+    border: 10px;
+}

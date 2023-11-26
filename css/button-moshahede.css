@@ -1,0 +1,24 @@
+
+  .button {
+    margin: 30px auto;
+    margin-bottom: 20px;
+    max-width: 271px;
+    height: 40px;
+    border: 1px solid #999999;
+    border-radius: 69px;
+    text-align: center;
+    padding-top: 10px;
+    transition: 400ms;
+    cursor:pointer;
+  }
+  .button a{
+    color: #1AC977;
+    font-size: 19px;
+    font-family: yekan;
+    text-decoration:solid;
+ 
+  }
+  .button:hover{
+    border:1px solid #1AC977;
+    box-shadow: 0 0 5px #1AC977;
+  }

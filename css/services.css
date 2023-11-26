@@ -1,0 +1,52 @@
+.services {
+    width: 100%;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  .services .service-border{
+    position: relative;
+    display: inline-block;  
+    margin-top: 30px;
+  }
+
+  .service{
+    position: absolute;
+    right: 65px;
+    width: 100px;
+    top: 20px;
+
+  }
+  .service-circle{
+      opacity: 0.1;
+      margin: 20px ;
+      margin-top: 65px;
+      transition: 300ms;
+  }
+  .service-border:hover .service-circle{
+    opacity: 0.3;
+  }
+  .service-title{
+    position: absolute;
+    font-family: yekan;
+    font-size: 19px;
+    color: #5c5c5c;
+      width: 230px;
+      height: 230px;
+      top: 140px;
+      right: 5px;
+      text-align: center ;
+  }
+  .service-text{
+    position: absolute;
+    font-family: yekan;
+    font-size: 13px;
+    color: #5a5a5a;
+      width: 230px;
+      height: 230px;
+      top: 180px;
+      right: 5px;
+      text-align: center ;
+      } 

@@ -1,0 +1,39 @@
+.banimag {
+  
+  margin: 60px 0;
+}
+.banimag h2 {
+  
+  font-family: yekan;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.swiper-wrapper{
+    width: 100%;
+   
+    height: fit-content;
+  
+  }
+  .swiper-slide{
+    box-sizing: border-box;
+    height: 100%;
+    margin-bottom: 50px;
+    }
+  .swiper-slide .mag-pic{
+    border-radius: 5px;
+    width: 96%;
+    
+  }
+  .swiper-slide a{
+    color: black;
+    text-decoration: none;
+    font-family: yekan;
+    font-size: 15px;
+    transition: 200ms;
+
+  }
+  .swiper-slide:hover .mag-title{
+    color: #1AC977;
+  }
+

@@ -1,0 +1,81 @@
+@import "bhead.css";
+@import "slides.css";
+@import "dastehbandi.css";
+@import "middle-slides.css";
+@import "shegeft-day.css";
+@import "button-moshahede.css";
+@import "dasteha4ta.css";
+@import "best-sale.css";
+@import "services.css";
+@import "brands.css";
+@import "banimag.css";
+@import "news.css";
+@import "footer.css";
+@import "topslider-wide.css";
+@import "storymode.css";
+@import "wide-ad.css";
+@import "toy-slider1.css";
+
+
+
+@font-face {
+  font-family: yekan;
+  src: url(../fonts/IRANYekanWebFn.eot);
+  src: url(../fonts/IRANYekanWebFn.woff2);
+  src: url(../fonts/IRANYekanWebFn.woff);
+  src: url(../fonts/IRANYekanWebFn.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+.container{
+  width: 90%;
+  margin: 0 auto;
+ /* border:  red solid;   */
+}
+:root{
+  --green: #1ac977;
+}
+.last{
+  width: 100%;
+  height: fit-content;
+}
+.last a{
+  width: inherit;
+  height: fit-content;
+}
+.last img{
+  width: inherit;
+  border-radius: 20px;
+  margin-bottom: 75px;
+  transition: 300ms;
+}
+.last img:hover{
+  transform: scale(1.03,1.03);
+
+}
+.support{
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #1ac977;
+  position: fixed;
+  bottom: 70px ;
+  left: 40px;
+  z-index: 2;
+  background-image: url(./pics/support.jpg) !important;
+  background-position: center center;
+  background-size: 60px;
+  background-repeat: no-repeat;
+
+}
+.support-chat{
+  position: fixed;
+  background-color: #faa;
+  width: 200px;
+  height: 450px;
+  bottom: 90px;
+  left: 40px;
+}

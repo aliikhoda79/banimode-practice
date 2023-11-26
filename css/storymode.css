@@ -1,0 +1,30 @@
+
+.circl-title{
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: yekan;
+    font-weight: 500;
+    font-size: 25px;
+}
+.circles {
+    width: 100%;
+    margin-bottom: 150px;    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .circled-daste {
+    width: fit-content;
+    height: fit-content;
+    
+  }
+  
+  .circled-daste img {
+    width: 100%;
+    height: 120px;
+    transition: 500ms;
+  }
+  .circled-daste img:hover {
+    transform: scale(1.05, 1.05);
+  }
+  

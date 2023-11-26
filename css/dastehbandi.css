@@ -1,12 +1,10 @@
 .group-items{
     width: 100%;
     text-align: center;
-    background-color: blue;
     display: flex;
     justify-content: space-between;
 }
 .g-item {
-    background-color: chartreuse;
     position: relative;
     margin: 50px 0;
     display: inline-block;

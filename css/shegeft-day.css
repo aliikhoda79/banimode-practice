@@ -1,5 +1,5 @@
 .sh-slide {
-  width: 100%;
+
   margin-top: 10px;
 }
 .mySwiper-sh-slide {
@@ -57,7 +57,6 @@
 .item-detail a {
   direction: ltr;
   color: black;
-  
   text-decoration: none;
   font-family: yekan;
   display: inline-block;

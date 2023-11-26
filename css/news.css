@@ -3,7 +3,7 @@
     height: 240px;
     background-color:#f8f8f8;
     /* background-color:#636262; */
-    background-image: url(./pics/newsletter.svg);
+    background-image: url(/pics/newsletter.svg);
     background-repeat: no-repeat;
     background-position: left top;
     position: relative;
